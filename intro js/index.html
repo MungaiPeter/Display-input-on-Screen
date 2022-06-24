@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+</head>
+
+<body>
+    <main>
+
+        <p >Name: <span class="name"></span></p>
+        <p >Height:<span  class="height"></span></p>
+        <p >Country:<span class="country"></span></p>
+
+        <button> Click to Enter Details</button>
+    </main>
+
+
+    <script>
+        let name = document.querySelector('.name');
+        let height = document.querySelector('.height');
+        let country = document.querySelector('.country');
+        let btn  = document.querySelector('button');
+
+        btn.addEventListener('click', () => {
+            name.textContent = ` ${prompt("Enter Your Name:", "ewtete ")}`;
+            height.textContent = ` ${prompt("Enter Your Height:", " ")}`;
+            country.textContent = ` ${prompt("Enter The Name of your Country:", " ")}`;
+        })
+
+       
+
+
+
+
+
+        
+
+
+    </script>
+</body>
+
+</html>
